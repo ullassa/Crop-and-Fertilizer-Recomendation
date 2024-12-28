@@ -1,2 +1,3 @@
-# Crop and Fertilizer Recomendation Project
- recomending the suitable crop and fertilizer for the given NPK values
+## THIS IS THE DEPLOYMENT BRANCH
+
+## FOR MAIN BRANCH GO [HERE](https://github.com/Gladiator07/Harvestify)

@@ -1,0 +1,23 @@
+
+{% extends 'layout.html' %}
+{% block body %}
+<section class="disease-result">
+    <div class="container py-md-5">
+        <h3 class="heading mb-sm-5 mb-4 text-center">Disease Detection Result</h3>
+        <p>The detected disease is: <strong>{{ disease }}</strong></p>
+        
+        <div class="mt-4">
+            <h4>Try Another Image</h4>
+            <form action="{{ url_for('disease_prediction') }}" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="plant_image">Upload a plant image:</label>
+                    <input type="file" class="form-control-file" id="plant_image" name="file" required>
+                </div>
+                <button type="submit" class="btn btn-primary mt-2">Detect Disease</button>
+            </form>
+        </div>
+        
+        <a href="/" class="btn btn-secondary mt-3">Go Back to Home</a>
+    </div>
+</section>
+{% endblock %}
