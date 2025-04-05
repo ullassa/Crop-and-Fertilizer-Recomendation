@@ -15,7 +15,7 @@ from PIL import Image
 from utils.model import ResNet9
 # ==============================================================================================
 
-# -------------------------LOADING THE TRAINED MODELS -----------------------------------------------
+# -------------------------LOADING THE TRAINED MODELS ---------------------------------------------
 
 # Loading plant disease classification model
 
@@ -43,7 +43,7 @@ disease_classes = ['Apple___Apple_scab',
                    'Potato___Late_blight',
                    'Potato___healthy',
                    'Raspberry___healthy',
-                   'Soybean___healthy',
+                   'Soyabean___healthy',
                    'Squash___Powdery_mildew',
                    'Strawberry___Leaf_scorch',
                    'Strawberry___healthy',
